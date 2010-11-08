@@ -9,4 +9,4 @@ rake rails:template LOCATION=https://github.com/tb/rails-templates/raw/master/jq
 rails plugin install git://github.com/tb/modal_scaffold.git
 rails g modal_scaffold Article title:string body:text published_at:datetime
 
-Copyright (c) 2010 Tomasz Bak, released under the MIT license
+p. Copyright (c) 2010 Tomasz Bak, released under the MIT license
