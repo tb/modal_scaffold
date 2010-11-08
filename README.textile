@@ -9,4 +9,9 @@ rake rails:template LOCATION=https://github.com/tb/rails-templates/raw/master/jq
 rails plugin install git://github.com/tb/modal_scaffold.git
 rails g modal_scaffold Article title:string body:text published_at:datetime
 
+p. Add in application layout:
+
+bc.. <%= stylesheet_link_tag 'colorbox' %>
+<%= javascript_include_tag 'jquery.colorbox' %>
+
 p. Copyright (c) 2010 Tomasz Bak, released under the MIT license
