@@ -2,4 +2,11 @@ h1. ModalScaffold
 
 h2. Usage
 
+bc.. rails new sample_app
+cd sample_app
+rake rails:template LOCATION=https://github.com/tb/rails-templates/raw/master/jquery.rb
+rake rails:template LOCATION=https://github.com/tb/rails-templates/raw/master/jquery_colourbox.rb
+rails plugin install git://github.com/tb/modal_scaffold.git
+rails g modal_scaffold Article title:string body:text published_at:datetime
+
 Copyright (c) 2010 Tomasz Bak, released under the MIT license
