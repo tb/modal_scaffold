@@ -1,0 +1,7 @@
+<h1>Listing <%= plural_table_name %></h1>
+
+<%%= link_to 'New <%= human_name %>', <%= plural_table_name %>_path, :method => :post, :remote => true %>
+
+<div id="<%= plural_table_name %>">
+  <%%= render :partial => 'list' %>
+</div>

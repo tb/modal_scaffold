@@ -1,0 +1,6 @@
+<%% if @<%= singular_table_name %>.persisted? %>
+  $("#<%= plural_table_name %>").html("<%%= escape_javascript(render(:partial => "list"))%>");
+  $.colorbox.close();
+<%% else %>
+  <%%= raw render(:file => "<%= plural_table_name %>/edit") %>
+<%% end %>

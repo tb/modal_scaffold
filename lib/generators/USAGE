@@ -1,0 +1,5 @@
+Description:
+    Generate modal AJAX scaffold
+
+Example:
+    rails generate modal_scaffold Article body:text published_at:datetime

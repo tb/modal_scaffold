@@ -1,0 +1,9 @@
+$.colorbox({
+  html:"<%%= escape_javascript(render(:partial => "form")) -%>",
+  close: function(){
+    return "X";
+  },
+  //onComplete: function(){
+  //  $('#cboxContent').find('#<%= singular_table_name %>_title').focus();
+  //}
+});
